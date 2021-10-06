@@ -67,6 +67,8 @@
             android:autoSizeTextType="uniform"
             android:gravity="center"
             android:letterSpacing=".2"
+            android:singleLine="true"
+            android:maxLines="1"
             android:text="@string/theme_font_example"
             android:textAlignment="center"
             android:textSize="@dimen/theme_option_font_text_size" />

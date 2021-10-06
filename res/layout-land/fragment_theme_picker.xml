@@ -75,6 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:maxLines="1"
                 android:gravity="center"
                 android:text="@string/something_went_wrong"/>
         </FrameLayout>

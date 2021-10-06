@@ -19,6 +19,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:screenOrientation="portrait"
     android:orientation="vertical"
     android:background="?android:colorPrimary">
     <include layout="@layout/section_header"/>
@@ -50,7 +51,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/options_container"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/options_container_height"
+                android:layout_height="250dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
                 android:scrollbars="vertical"

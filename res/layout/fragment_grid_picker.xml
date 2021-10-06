@@ -59,6 +59,7 @@
                 android:paddingVertical="18dp"
                 android:lineHeight="24dp"
                 android:singleLine="true"
+                android:maxLines="1"
                 android:text="@string/grid_options_title"
                 android:textAppearance="@style/TitleTextAppearance"
                 app:layout_constraintStart_toStartOf="parent"

@@ -311,6 +311,7 @@ public class OptionSelectorController<T extends CustomizationOption<T>> {
             super(itemView);
             labelView = itemView.findViewById(R.id.option_label);
             tileView = itemView.findViewById(R.id.option_tile);
+            labelView.setSingleLine(true);
             title = null;
         }
 
